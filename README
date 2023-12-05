@@ -1,0 +1,14 @@
+#incluir a pasta do node no diretorio usr
+	sudo cp -r node-v20.9.0-linux-x64 /usr/
+
+#senha da api
+	a649aa72
+
+#instale o botstrap
+	npm install bootstrap
+
+#alterar diretório para executar a versão do node correta
+	export PATH=/usr/node-v20.9.0-linux-x64/bin:$PATH
+
+#rodar a aplicação
+	npm run dev
