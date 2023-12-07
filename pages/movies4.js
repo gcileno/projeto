@@ -16,7 +16,7 @@ const Movies4 = () => {
     const handleButtonClick = (e) => {
       e.preventDefault();
 
-      if (url === '') setUrl('http://www.omdbapi.com/?apikey=a649aa72&s=avatar');
+      if (url === '') setUrl('https://www.omdbapi.com/?apikey=a649aa72&s=avatar');
       else setUrl('');
     };
 
@@ -25,7 +25,7 @@ const Movies4 = () => {
       const newSearchTerm = e.target.elements.search.value.trim();
       const newSearchYear = e.target.elements.year.value.trim();
 
-      setUrl(`http://www.omdbapi.com/?apikey=a649aa72&s=${newSearchTerm}&y=${newSearchYear}`);
+      setUrl(`https://www.omdbapi.com/?apikey=a649aa72&s=${newSearchTerm}&y=${newSearchYear}`);
     };
 
     //aplciar métodos da pagina?
