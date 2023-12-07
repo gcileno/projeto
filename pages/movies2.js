@@ -5,7 +5,7 @@ import useSWR from 'swr';
 export default function Movies2() {
   const [searchTerm, setSearchTerm] = useState('avatar'); //pesquisa por defalt o estado incial
   const { data, error } = useSWR(
-    `http://www.omdbapi.com/?apikey=a649aa72&s=${searchTerm}`,
+    `https://www.omdbapi.com/?apikey=a649aa72&s=${searchTerm}`,
     fetcher
   );
 
