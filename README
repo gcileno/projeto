@@ -1,3 +1,10 @@
+#Projeto Alzira, uma cigana inteligente 
+Este projeto foi realizado com a tecnologia Reacnt + Node.js como trabalho de apresentação para a disciplina
+Programçao para Web. O site, consiste em um sistema de sleção de cartas do tarot onde um usuario logado poderá
+selecionar uma carta diaria, poderá realizar login e cadastrar dados pessoais
+
+1. Comandos básicos
+
 #incluir a pasta do node no diretorio usr
 	sudo cp -r node-v20.9.0-linux-x64 /usr/
 
@@ -10,3 +17,5 @@
 
 #rodar a aplicação
 	npm run dev
+
+o projeto foi apresentado em novembro de 2023, nota 8.0
